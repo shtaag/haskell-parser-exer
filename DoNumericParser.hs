@@ -1,4 +1,11 @@
-module DoNumericParser where
+module DoNumericParser
+    ( -- * parser for Numeric representations
+      Expr (Nat, Add, Multi)
+    , nat
+    , factor
+    , term
+    , expr
+    ) where
 {- 
     Parser Exercise with do expression. ex. ghci> parseTest expr "1+(2*3)"
 -}
