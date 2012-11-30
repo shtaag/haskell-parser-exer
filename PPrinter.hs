@@ -1,4 +1,4 @@
-module NumParserPPrinter where
+module PPrinter where
 
 import Text.PrettyPrint
 import DoNumericParser (Expr(Nat, Add, Multi))
